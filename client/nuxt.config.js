@@ -52,7 +52,7 @@ export default {
         icons: {
           regular: ['faMoon'],
           solid: ['faSun', 'faCheck', 'faSkull', 'faCog', 'faHome'],
-          brands: ['faGoogle', 'faTwitter', 'faGithub'],
+          brands: ['faTwitch', 'faTwitter', 'faGithub'],
         },
       },
     ],
@@ -72,7 +72,6 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxtjs/svg',
-    '@nuxtjs/dayjs',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)

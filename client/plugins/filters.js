@@ -9,4 +9,3 @@ Vue.filter('two_digits', (val) => {
   }
   return val
 })
-
