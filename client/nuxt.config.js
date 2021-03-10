@@ -32,7 +32,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [],
+  plugins: [{ src: '~/plugins/filters' }],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -72,6 +72,7 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxtjs/svg',
+    '@nuxtjs/dayjs',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -87,6 +88,13 @@ export default {
         '^/api/': '/',
       },
     },
+  },
+
+  /*
+   ** dayjs configuration
+   */
+  dayjs: {
+    plugins: ['localizedFormat', 'utc'],
   },
 
   /*
