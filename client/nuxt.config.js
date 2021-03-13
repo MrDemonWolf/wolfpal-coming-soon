@@ -1,9 +1,9 @@
 export default {
-  // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
-  ssr: false,
-
-  // Target (https://go.nuxtjs.dev/config-target)
-  target: 'static',
+  /*
+   ** Nuxt target
+   ** See https://nuxtjs.org/api/configuration-target
+   */
+  target: 'server',
 
   server: {
     port: process.env.PORT || 3000, // default: 3000
